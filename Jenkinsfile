@@ -7,7 +7,7 @@ jdk'JDK'
 stages{
 stage('Checkout'){
 steps{
-git branch:'master',url:''
+git branch:'master',url:'https://github.com/bitcse02/1bi22cs069.git'
 }
 }
 stage('Build'){
